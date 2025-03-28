@@ -1,70 +1,58 @@
-# Secure Password Generator
+# Number Guessing Game 🎮
 
-A modern, user-friendly web application for generating secure passwords with customizable options and real-time strength assessment.
+A modern, interactive number guessing game built with HTML, CSS, and JavaScript. This project showcases clean code architecture, responsive design, and engaging user experience.
 
 ## 🌟 Features
 
-- **Customizable Password Generation**
-  - Adjustable password length (8-32 characters)
-  - Option to include/exclude:
-    - Uppercase letters (A-Z)
-    - Lowercase letters (a-z)
-    - Numbers (0-9)
-    - Special characters (!@#$%^&*)
-
-- **Real-time Password Strength Meter**
-  - Visual strength indicator with color-coded bars
-  - Strength assessment based on:
-    - Password length
-    - Character variety
-    - Pattern complexity
-
-- **User-Friendly Interface**
-  - Clean, modern design with gradient effects
-  - Responsive layout for all devices
-  - One-click password copying
-  - Interactive feedback system
-
-- **Security Tips**
-  - Built-in password security guidelines
-  - Best practices for password creation
-  - Real-time feedback on password strength
+- Clean and intuitive user interface
+- Real-time feedback on guesses
+- Guess history tracking
+- Responsive design that works on all devices
+- Smooth animations and transitions
+- Limited attempts to increase challenge
+- New game functionality
+- Input validation and error handling
 
 ## 🛠️ Technologies Used
 
 - HTML5
-- CSS3 (with modern features like CSS Grid and Flexbox)
-- JavaScript
-- Font Awesome Icons
+- CSS3 (with modern features like Flexbox and CSS Grid)
+- JavaScript (ES6+)
+- Google Fonts (Poppins)
+
+## 🎯 How to Play
+
+1. The game generates a random number between 1 and 100
+2. You have 10 attempts to guess the correct number
+3. After each guess, you'll receive feedback if your guess was too high or too low
+4. The game tracks your guess history
+5. You can start a new game at any time using the "New Game" button
 
 ## 🚀 Getting Started
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/harika8790/Micro-IIT-Internship/tree/main/number%20guessing%20game
-   ```
+```bash
+git clone https://github.com/harika8790/Micro-IIT-Internship/tree/main/number%20guessing%20game
+```
 
-2. Navigate to the project directory:
-   ```bash
-   cd password-generator
-   ```
+2. Open `index.html` in your web browser
 
-3. Open `index.html` in your web browser or use a local server.
+3. Start playing!
 
-## 💻 Usage
+## 💻 Code Structure
 
-1. Adjust the password length using the slider
-2. Select desired character types using checkboxes
-3. Click "Generate Password" to create a new password
-4. Use the copy button to copy the generated password
-5. Check the strength meter for password security assessment
+- `index.html`: Main HTML structure
+- `styles.css`: Styling and animations
+- `script.js`: Game logic and functionality
 
-## 🔒 Security Features
+## 🎨 Design Features
 
-- Client-side password generation (no server communication)
-- No password storage or transmission
-- Real-time strength assessment
-- Secure random number generation
+- Modern gradient background
+- Clean, minimalist UI
+- Smooth hover effects
+- Responsive layout
+- Mobile-friendly design
+- Animated feedback for incorrect guesses
 
 ## 🤝 Contributing
 
@@ -74,12 +62,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## 👤 Author
+
+Harika
+
 ## 🙏 Acknowledgments
 
-- Font Awesome for the icons
-- Modern CSS techniques and best practices
-- Security guidelines from industry standards
-
----
-
-Made with ❤️ by Harika 
+- Google Fonts for the Poppins font family
+- All contributors and supporters 
