@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="password-generator">
+            <h1>Secure Password Generator</h1>
+            <div class="password-box">
+                <input type="text" id="password" readonly>
+                <button id="copy-btn" class="copy-btn" title="Copy to clipboard">
+                    <i class="fas fa-copy"></i>
+                </button>
+            </div>
+            <div class="strength-meter">
+                <div class="strength-label">Password Strength:</div>
+                <div class="strength-bars">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="strength-text">Very Weak</div>
+            </div>
+            <div class="settings">
+                <div class="setting">
+                    <label>Password Length</label>
+                    <div class="length-control">
+                        <input type="range" id="length" min="8" max="32" value="16">
+                        <span id="length-value">16</span>
+                    </div>
+                </div>
+                <div class="setting">
+                    <label>Uppercase Letters (A-Z)</label>
+                    <input type="checkbox" id="uppercase" checked>
+                </div>
+                <div class="setting">
+                    <label>Lowercase Letters (a-z)</label>
+                    <input type="checkbox" id="lowercase" checked>
+                </div>
+                <div class="setting">
+                    <label>Numbers (0-9)</label>
+                    <input type="checkbox" id="numbers" checked>
+                </div>
+                <div class="setting">
+                    <label>Special Characters (!@#$%^&*)</label>
+                    <input type="checkbox" id="symbols" checked>
+                </div>
+            </div>
+            <button id="generate-btn" class="generate-btn">
+                Generate Password
+                <i class="fas fa-sync-alt"></i>
+            </button>
+            <div class="tips">
+                <h3>Password Tips</h3>
+                <ul>
+                    <li>Use at least 12 characters</li>
+                    <li>Include a mix of character types</li>
+                    <li>Avoid common words and patterns</li>
+                    <li>Don't reuse passwords</li>
+                </ul>
+            </div>
+            <div class="feedback-section">
+                <h3>User Feedback</h3>
+                <div class="feedback-form">
+                    <div class="rating">
+                        <span>Rate this tool:</span>
+                        <div class="stars">
+                            <i class="fas fa-star" data-rating="1"></i>
+                            <i class="fas fa-star" data-rating="2"></i>
+                            <i class="fas fa-star" data-rating="3"></i>
+                            <i class="fas fa-star" data-rating="4"></i>
+                            <i class="fas fa-star" data-rating="5"></i>
+                        </div>
+                    </div>
+                    <textarea id="feedback-text" placeholder="Share your experience with this password generator..."></textarea>
+                    <button id="submit-feedback" class="submit-btn">Submit Feedback</button>
+                </div>
+                <div class="feedback-list">
+                    <h4>Recent Feedback</h4>
+                    <div id="feedback-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
