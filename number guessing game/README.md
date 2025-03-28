@@ -34,14 +34,14 @@ A modern, user-friendly web application for generating secure passwords with cus
 
 - HTML5
 - CSS3 (with modern features like CSS Grid and Flexbox)
-- JavaScript (Vanilla)
+- JavaScript
 - Font Awesome Icons
 
 ## 🚀 Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/password-generator.git
+   git clone https://github.com/harika8790/Micro-IIT-Internship/tree/main/number%20guessing%20game
    ```
 
 2. Navigate to the project directory:
@@ -82,4 +82,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Made with ❤️ by [Your Name] 
+Made with ❤️ by Harika 
